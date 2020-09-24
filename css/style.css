@@ -1,1 +1,24 @@
-l
+html body {
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+}
+
+.center-content {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  opacity: 50%;
+  margin: auto;
+  text-align: center;
+  border: 10px outset yellow;
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.center-content:hover {
+  background-color: aquamarine;
+  color: red;
+}
