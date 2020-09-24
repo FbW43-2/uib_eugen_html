@@ -4,47 +4,48 @@ html body {
   background-color: blueviolet;
 }
 
+.thickborder {
+  border: 10px outset yellow;
+  border-radius: 25%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .center-content {
   background-color: black;
-  width: 350px;
-  height: 350px;
-  border-radius: 10px;
+  width: 500px;
+  height: 500px;
   opacity: 50%;
-  margin: auto;
-  text-align: center;
-  color: white;
-  font-size: 50px;
-  font-weight: bolder;
 }
 
 .center-content:hover {
   background-color: aquamarine;
-  color: red;
 }
 
 .inner-square {
-  width: 150px;
-  height: 150px;
+  width: 300px;
+  height: 300px;
   background-color: darkgreen;
-  font-size: 35px;
-}
-.inner-square:hover {
-  background-color: pink;
-  color: green;
 }
 
-.thickborder {
-  border: 10px outset yellow;
+.inner-square:hover {
+  background-color: pink;
 }
+
 .innerinner {
-  width: 70px;
-  height: 70px;
+  width: 150px;
+  height: 150px;
   background-color: hotpink;
-  color: white;
-  font-size: 15px;
+  background-image: url(/images/giphy.gif);
+  background-size: cover;
+  background-position: center;
 }
 
 .innerinner:hover {
-  background-color: maroon;
+  background-color: white;
   color: black;
 }
