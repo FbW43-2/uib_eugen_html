@@ -6,13 +6,12 @@ html body {
 
 .center-content {
   background-color: black;
-  width: 200px;
-  height: 200px;
+  width: 350px;
+  height: 350px;
   border-radius: 10px;
   opacity: 50%;
   margin: auto;
   text-align: center;
-  border: 10px outset yellow;
   color: white;
   font-size: 50px;
   font-weight: bolder;
@@ -21,4 +20,31 @@ html body {
 .center-content:hover {
   background-color: aquamarine;
   color: red;
+}
+
+.inner-square {
+  width: 150px;
+  height: 150px;
+  background-color: darkgreen;
+  font-size: 35px;
+}
+.inner-square:hover {
+  background-color: pink;
+  color: green;
+}
+
+.thickborder {
+  border: 10px outset yellow;
+}
+.innerinner {
+  width: 70px;
+  height: 70px;
+  background-color: hotpink;
+  color: white;
+  font-size: 15px;
+}
+
+.innerinner:hover {
+  background-color: maroon;
+  color: black;
 }
